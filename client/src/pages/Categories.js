@@ -2,10 +2,25 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import useCategory from "../hooks/useCategory";
 import Layout from "../components/Layout/Layout";
+
 const Categories = () => {
   const categories = useCategory();
-  return (
+  return (   
+
+
+   
+
     <Layout title={"All Categories"}>
+ <img
+        src="/images/cat.webp"
+        className="banner-img"
+        alt="bannerimage"
+        height="100%"
+        width="100%"
+        style={{  objectFit: "cover" }}
+      />
+
+
       <div className="container">
         <div className="row">
           {categories.map((c) => (
@@ -18,6 +33,8 @@ const Categories = () => {
         </div>
       </div>
     </Layout>
+
+
   );
 };
 

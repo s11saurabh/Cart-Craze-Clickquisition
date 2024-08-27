@@ -77,6 +77,19 @@ const CartPage = () => {
   };
   return (
     <Layout>
+
+
+
+<img
+        src="/images/bannner.jpg"
+        className="banner-img"
+        alt="bannerimage"
+        height="100%"
+        width="100%"
+        style={{  objectFit: "cover" }}
+      />
+
+
       <div className="container">
         <div className="row">
           <div className="col-md-12">

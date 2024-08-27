@@ -13,10 +13,26 @@ const Dashboard = () => {
   <div className='col-md-3'><UserMenu/></div>
   <div className='col-md-9'>
      <div className='card w-75 p-3'>
+
+
+
+     <img
+        src="/images/baner.jpg"
+        className="banner-img"
+        alt="bannerimage"
+        height="1%"
+        width="100%"
+        style={{  objectFit: "cover" }}
+      />
+
         <h3>{auth?.user?.name}</h3>
         <h3>{auth?.user?.email}</h3>
        
         <h3>{auth?.user?.phone}</h3>
+
+
+
+
   </div>
   </div>
 </div>
