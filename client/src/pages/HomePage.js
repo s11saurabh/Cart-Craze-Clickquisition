@@ -113,7 +113,7 @@ const HomePage = () => {
   return (
     <Layout title={"All Products - Best offers"}>
       <img
-        src="/images/mainsw.webp"
+        src="/images/gharka.jpg"
         className="banner-img"
         alt="bannerimage"
         width="100%"
