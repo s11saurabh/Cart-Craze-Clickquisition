@@ -116,8 +116,9 @@ const HomePage = () => {
         src="/images/gharka.jpg"
         className="banner-img"
         alt="bannerimage"
+        height="100%"
         width="100%"
-        style={{ height: "50vh", objectFit: "cover" }}
+        style={{  objectFit: "cover" }}
       />
 
       <div className="container-fluid row mt-3 home-page">
